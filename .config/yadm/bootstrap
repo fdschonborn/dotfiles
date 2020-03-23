@@ -1,0 +1,2 @@
+# Update submodules
+yadm submodule update --init --remote
