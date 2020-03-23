@@ -1,0 +1,12 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true,
+}
