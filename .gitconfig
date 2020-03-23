@@ -4,3 +4,5 @@
 	signingkey = 5B1225AF184F57C6
 [core]
 	editor = nano
+[help]
+	autocorrect = 1
