@@ -1,0 +1,6 @@
+[user]
+	email = fdschonborn@gmail.com
+	name = Federico Damian Schonborn
+	signingkey = 5B1225AF184F57C6
+[core]
+	editor = nano
