@@ -9,4 +9,6 @@
     "terminal.integrated.fontFamily": "Fira Code, monospace",
     "editor.fontFamily": "Fira Code, monospace",
     "editor.fontLigatures": true,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
 }
