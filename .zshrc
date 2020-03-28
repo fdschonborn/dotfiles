@@ -24,8 +24,8 @@ if test -f "$HOME/.antigen/antigen.zsh"; then
 fi
 
 # Powerlevel10k
-if test -f "$HOME/.p10k.zsh"; then
-    source "$HOME/.p10k.zsh"
+if test -f "$HOME/.config/powerlevel10k.zsh"; then
+    source "$HOME/.config/powerlevel10k.zsh"
 fi
 
 # Neofetch
