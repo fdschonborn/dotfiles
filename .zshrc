@@ -16,16 +16,13 @@ if test -f "$HOME/.antigen/antigen.zsh"; then
     antigen bundle zsh-users/zsh-completions
     antigen bundle zsh-users/zsh-history-substring-search
 
-    # Theme
-    antigen theme romkatv/powerlevel10k
-
     # Apply
     antigen apply
 fi
 
-# Powerlevel10k
-if test -f "$HOME/.config/powerlevel10k.zsh"; then
-    source "$HOME/.config/powerlevel10k.zsh"
+# Starship
+if type starship >/dev/null 2>&1; then
+    eval "$(starship init zsh)"
 fi
 
 # Neofetch

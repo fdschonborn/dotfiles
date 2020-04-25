@@ -1,14 +1,22 @@
 {
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "terminal.integrated.fontFamily": "Fira Code, monospace",
     "editor.fontFamily": "Fira Code, monospace",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Ayu Mirage Bordered",
-    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goreturns",
+    "explorer.openEditors.visible": 0,
 }
