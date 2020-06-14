@@ -45,6 +45,10 @@
     // Go (golang.Go)
     "go.autocompleteUnimportedPackages": true,
     "go.useLanguageServer": true,
+    "go.enableCodeLens": {
+        "references": true,
+        "runtest": true
+    },
     // Meson (asabil.meson)
     "mesonbuild.buildFolder": "build",
     // Rust Analyzer (matklad.rust-analyzer)
