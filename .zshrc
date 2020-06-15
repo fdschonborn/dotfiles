@@ -29,3 +29,8 @@ fi
 if type neofetch >/dev/null 2>&1; then
     neofetch
 fi
+
+# Fortune
+if type fortune >/dev/null 2>&1; then
+    fortune
+fi
