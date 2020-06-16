@@ -1,2 +1,11 @@
-# Update submodules
-yadm submodule update --init --remote
+#!/usr/bin/env bash
+
+echo ">> Cloning submodules..."
+yadm submodule update --init
+
+echo ">> Decrypting files..."
+echo " - Key file path: "
+yadm git-crypt unlock $(read)
+
+echo ">> Fixing permissions..."
+chmod 600 "$HOME/.ssh/id_rsa"
