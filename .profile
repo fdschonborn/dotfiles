@@ -1,5 +1,5 @@
 # Hub
-if type hub >/dev/null 2>&1; then
+if type hub &> /dev/null; then
     alias git="hub"
 fi
 
@@ -7,7 +7,7 @@ fi
 if test -d "$HOME/.cargo/bin"; then
     export PATH="$HOME/.cargo/bin:$PATH"
 
-    if type sccache >/dev/null 2>&1; then
+    if type sccache &> /dev/null; then
         export RUSTC_WRAPPER="sccache"
     fi
 fi
