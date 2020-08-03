@@ -1,0 +1,39 @@
+version = "0.5.3"
+home = "/home/federico"
+root = "/home/federico/.sheldon"
+config_file = "/home/federico/.sheldon/plugins.toml"
+lock_file = "/home/federico/.sheldon/plugins.lock"
+clone_dir = "/home/federico/.sheldon/repos"
+download_dir = "/home/federico/.sheldon/downloads"
+
+[[plugins]]
+name = "fast-syntax-highlighting"
+source_dir = "/home/federico/.sheldon/repos/github.com/zdharma/fast-syntax-highlighting"
+files = ["/home/federico/.sheldon/repos/github.com/zdharma/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "history-search-multi-word"
+source_dir = "/home/federico/.sheldon/repos/github.com/zdharma/history-search-multi-word"
+files = ["/home/federico/.sheldon/repos/github.com/zdharma/history-search-multi-word/history-search-multi-word.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "zsh-autosuggestions"
+source_dir = "/home/federico/.sheldon/repos/github.com/zsh-users/zsh-autosuggestions"
+files = ["/home/federico/.sheldon/repos/github.com/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "zsh-completions"
+source_dir = "/home/federico/.sheldon/repos/github.com/zsh-users/zsh-completions"
+files = ["/home/federico/.sheldon/repos/github.com/zsh-users/zsh-completions/zsh-completions.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "zsh-history-substring-search"
+source_dir = "/home/federico/.sheldon/repos/github.com/zsh-users/zsh-history-substring-search"
+files = ["/home/federico/.sheldon/repos/github.com/zsh-users/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh"]
+apply = ["source"]
+
+[templates]
