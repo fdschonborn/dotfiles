@@ -19,6 +19,8 @@ zinit snippet OMZL::functions.zsh
 zinit snippet OMZL::grep.zsh
 zinit snippet OMZL::history.zsh
 zinit snippet OMZL::key-bindings.zsh
+zinit snippet OMZL::termsupport.zsh
+zinit snippet OMZL::theme-and-appearance.zsh
 zinit light zdharma/fast-syntax-highlighting
 zinit light zdharma/history-search-multi-word
 zinit light zsh-users/zsh-autosuggestions
