@@ -1,7 +1,7 @@
 [user]
 	email = fdschonborn@gmail.com
 	name = Federico Damian Schonborn
-	signingkey = C5035FFC2F03EE71
+	signingkey = 692AB0DCB96A715A
 [core]
 	editor = nano
 	excludesfile = ~/.gitignore_global
