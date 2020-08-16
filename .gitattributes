@@ -1,9 +1,0 @@
-.cargo/credentials filter=git-crypt diff=git-crypt
-.config/hub filter=git-crypt diff=git-crypt
-.gnupg/openpgp-revocs.d/*.rev filter=git-crypt diff=git-crypt
-.gnupg/private-keys-v1.d/*.key filter=git-crypt diff=git-crypt
-.gnupg/pubring.kbx filter=git-crypt diff=git-crypt
-.gnupg/trustdb.gpg filter=git-crypt diff=git-crypt
-.ssh/id_rsa filter=git-crypt diff=git-crypt
-.ssh/id_rsa.pub filter=git-crypt diff=git-crypt
-.ssh/known_hosts filter=git-crypt diff=git-crypt
