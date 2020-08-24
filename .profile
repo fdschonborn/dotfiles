@@ -1,8 +1,3 @@
-# Hub
-if type hub &> /dev/null; then
-    alias git="hub"
-fi
-
 # Rust
 if test -d "$HOME/.cargo/bin"; then
     export PATH="$HOME/.cargo/bin:$PATH"
@@ -31,4 +26,9 @@ fi
 # Local
 if test -d "$HOME/.local/bin"; then
     export PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Hub
+if type hub &> /dev/null; then
+    alias git="hub"
 fi
