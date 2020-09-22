@@ -27,8 +27,3 @@ fi
 if test -d "$HOME/.local/bin"; then
     export PATH="$HOME/.local/bin:$PATH"
 fi
-
-# Hub
-if type hub &> /dev/null; then
-    alias git="hub"
-fi
