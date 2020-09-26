@@ -14,8 +14,8 @@ if test -d "$GOPATH/bin"; then
 fi
 
 # NodeJS
-if test -d "$HOME/.npm/bin"; then
-    export PATH="$HOME/.npm/bin:$PATH"
+if test -d "$HOME/.nvm"; then
+    source "$HOME/.nvm/nvm.sh"
 fi
 
 # Deno
