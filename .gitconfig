@@ -4,7 +4,7 @@
 	signingkey = 692AB0DCB96A715A
 [core]
 	editor = nano
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore.global
 [help]
 	autocorrect = 1
 [alias]
