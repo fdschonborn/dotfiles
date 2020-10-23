@@ -14,8 +14,13 @@ if test -d "$GOPATH/bin"; then
 fi
 
 # NodeJS
-if test -d "$HOME/.npm"; then
-    export PATH="$HOME/.npm/bin:$PATH"
+if test -d "$HOME/.nvm"; then
+    source "$HOME/.nvm/nvm.sh"
+fi
+
+# Deno
+if test -d "$HOME/.deno"; then
+    export PATH="$HOME/.deno/bin:$PATH"
 fi
 
 # Flutter

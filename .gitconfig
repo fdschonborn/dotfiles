@@ -4,8 +4,9 @@
 	signingkey = 692AB0DCB96A715A
 [core]
 	editor = nano
-	excludesfile = ~/.gitignore.global
 [help]
 	autocorrect = 1
 [alias]
 	amend = commit --amend
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
