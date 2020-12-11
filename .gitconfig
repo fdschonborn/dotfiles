@@ -3,13 +3,13 @@
 	name = Federico Damián Schonborn
 	signingkey = 692AB0DCB96A715A
 [core]
-	editor = nano
-[help]
-	autocorrect = 1
+	editor = "C:\\Users\\fdsch\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" --wait
+[gpg]
+	program = "C:\\Program Files\\Git\\usr\\bin\\gpg.exe"
 [alias]
 	amend = commit --amend
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+[help]
+autocorrect = 1
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
